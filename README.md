@@ -16,7 +16,7 @@ This repository contains demonstration code and methodological documentation for
 - Does this relationship vary with pre-existing soil moisture levels?
 
 ## Repository Contents
-- `demo_analysis.ipynb`: A Jupyter notebook demonstrating my analysis workflow using synthetic data.
+- `SEB_Methods.ipynb`: A Jupyter notebook demonstrating my analysis workflow using synthetic data.
 - `figures/`: Example plots.
 
 ## Technical Skills Demonstrated
