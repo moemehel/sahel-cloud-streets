@@ -7,7 +7,7 @@
 ## Overview
 This repository contains demonstration code and methodological documentation for my research on cloud street formation over the Sahel. The project investigates how these organized cloud formations interact with the surface energy budget, with implications for regional climate and agriculture.
 
-## 🔒 Research Protection Notice
+## Research Protection Notice
 **This is a demonstration repository.** The actual analysis scripts for this project utilize unpublished model outputs. To protect the integrity of ongoing, unpublished research, only generic demonstration code is provided here, which illustrates the *structure* and *logic* of my workflow using synthetic data.
 
 ## Key Research Questions
