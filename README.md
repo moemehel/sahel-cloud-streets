@@ -1,7 +1,7 @@
 # Sahel Cloud Streets & Surface Energy Analysis
 
 **Author:** Madison Emehel
-**REU:** University of Wisconsin–Madison, Dr. Bee Leung's Lab
+**REU:** UW-Madison STORM, Dr. Bee Leung's Lab
 **Status:** Active Research Project (Summer 2026)
 
 ## Overview
