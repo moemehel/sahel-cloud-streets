@@ -41,7 +41,18 @@ All variables are converted to standard energy flux units ($W/m^2$):
   * **Ground Heat Storage ($G$):** Calculated as the residual of the surface energy balance equation to ensure strict energy conservation: $G = -(SW_{net} + LW_{net} + SHF + LHF)$
 * **Step 5: Diurnal Time-Series Visualization**  
 The resulting datasets are compiled using `pandas` and plotted with `matplotlib` to evaluate the diurnal partitioning of energy fluxes.
+---
+## 📈 Demonstration Results
 
+![Surface Energy Budget Example](SEB000.png)  
+*Figure 1: Diurnal cycle of the Surface Energy Budget components at 0% Soil Moisture using synthetic demonstration data.
+
+![Bowen Ratio Sensitivity Example](BR_comps.png)  
+*Figure 2: Bowen Ratio ($B = \frac{SHF}{LHF}$) sensitivity curves across all 5 evaluated soil moisture thresholds.
+
+### Takeaways from the Simulation
+* **Surface Energy Budget (Figure 1):** At 0% soil moisture, the lack of available surface water heavily suppresses Latent Heat Flux ($LHF$), forcing the incoming net shortwave radiation to be allocated almost entirely to the Sensible Heat Flux ($SHF$). This models a highly efficient thermal heating of the lower atmosphere.
+* **Bowen Ratio Sensitivity (Figure 2):** As soil moisture scales from 0% to 100%, the Bowen ratio drops dramatically. This demonstrates the shift from a sensible-heat-dominated regime (dry soil) to a latent-heat-dominated regime (wet soil), which directly influences the thermodynamic stability required for cloud street development over the Sahel.
 ## Technical Skills Demonstrated
 - **Languages:** Python
 - **Libraries:** NumPy, Matplotlib, Pandas, Xarray
