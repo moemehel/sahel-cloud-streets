@@ -44,10 +44,10 @@ The resulting datasets are compiled using `pandas` and plotted with `matplotlib`
 ---
 ## 📈 Demonstration Results
 
-![Surface Energy Budget Example](SEB000.png)  
+![Surface Energy Budget Example](/figures/SEB000.png)  
 *Figure 1: Diurnal cycle of the Surface Energy Budget components at 0% Soil Moisture using synthetic demonstration data.
 
-![Bowen Ratio Sensitivity Example](BR_comps.png)  
+![Bowen Ratio Sensitivity Example](/figures/BR_comps.png)  
 *Figure 2: Bowen Ratio ($B = \frac{SHF}{LHF}$) sensitivity curves across all 5 evaluated soil moisture thresholds.
 
 ### Takeaways from the Simulation
