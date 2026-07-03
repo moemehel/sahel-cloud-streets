@@ -31,7 +31,7 @@ For each file, the following Surface Energy Budget variables are selected:
   * `SFLUX_T`: Sensible heat flux
   * `SFLUX_R`: Latent heat flux
 * **Step 3: Horizontal Domain Averaging**  
-To evaluate the column energy balance, I slice the variables at the lowest vertical grid level (`z=1`) and average them across the horizontal domain using `ds.sel(z=1).mean(dim=("x", "y"))` to produce a single time series[cite: 1].
+To evaluate the column energy balance, I slice the variables at the lowest vertical grid level (`z=1`) and average them across the horizontal domain using `ds.sel(z=1).mean(dim=("x", "y"))` to produce a single time series.
 * **Step 4: Thermodynamic Conversions & Energy Conservation**  
 All variables are converted to standard energy flux units ($W/m^2$):
   * **Net Shortwave ($SW_{net}$):** $SWDN - SWUP$
