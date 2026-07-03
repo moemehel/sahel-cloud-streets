@@ -18,7 +18,7 @@ This repository contains demonstration code and methodological documentation for
 ## Repository Contents
 - `SEB+BR_sample.ipynb`: A Jupyter notebook demonstrating my workflow.
 
-## 🔬 Analysis Methodology
+## Analysis Methodology
 
 The core logic demonstrated in `SEB+BR_sample.ipynb` follows a 5-step workflow to analyze land-atmosphere interactions across 5 distinct soil moisture thresholds (0% to 100% SM):
 
