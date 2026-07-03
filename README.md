@@ -36,8 +36,8 @@ To evaluate the column energy balance, I slice the variables at the lowest verti
 All variables are converted to standard energy flux units ($W/m^2$):
   * **Net Shortwave ($SW_{net}$):** $SWDN - SWUP$
   * **Net Longwave ($LW_{net}$):** $LWDN - LWUP$
-  * **Sensible Heat Flux ($SHF$):** $-SFLUX\_T \times 1004 \text{ J kg}^{-1}\text{ K}^{-1}$ (Specific heat of air, $C_p$)
-  * **Latent Heat Flux ($LHF$):** $-SFLUX\_R \times 2.5 \times 10^6 \text{ J kg}^{-1}$ (Latent heat of vaporization, $L_v$)
+  * **Sensible Heat Flux ($SHF$):** $-SFLUX_T \times 1004 \text{ J kg}^{-1}\text{ K}^{-1}$ (Specific heat of air, $C_p$)
+  * **Latent Heat Flux ($LHF$):** $-SFLUX_R \times 2.5 \times 10^6 \text{ J kg}^{-1}$ (Latent heat of vaporization, $L_v$)
   * **Ground Heat Storage ($G$):** Calculated as the residual of the surface energy balance equation to ensure strict energy conservation: $G = -(SW_{net} + LW_{net} + SHF + LHF)$
 * **Step 5: Diurnal Time-Series Visualization**  
 The resulting datasets are compiled using `pandas` and plotted with `matplotlib` to evaluate the diurnal partitioning of energy fluxes.
