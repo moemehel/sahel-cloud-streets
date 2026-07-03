@@ -42,7 +42,7 @@ All variables are converted to standard energy flux units ($W/m^2$):
 * **Step 5: Diurnal Time-Series Visualization**  
 The resulting datasets are compiled using `pandas` and plotted with `matplotlib` to evaluate the diurnal partitioning of energy fluxes.
 ---
-## 📈 Demonstration Results
+## Demonstration Results
 
 ![Surface Energy Budget Example](/figures/SEB000.png)  
 *Figure 1: Diurnal cycle of the Surface Energy Budget components at 0% Soil Moisture using synthetic demonstration data.
