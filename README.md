@@ -45,14 +45,14 @@ The resulting datasets are compiled using `pandas` and plotted with `matplotlib`
 ## Demonstration Results
 
 ![Surface Energy Budget Example](/figures/SEB000.png)  
-*Figure 1: Diurnal cycle of the Surface Energy Budget components at 0% Soil Moisture using synthetic demonstration data.
+*Figure 1: Diurnal cycle of the Surface Energy Budget components at 0% Soil Moisture.
 
-![Bowen Ratio Sensitivity Example](/figures/BR_comps.png)  
-*Figure 2: Bowen Ratio ($B = \frac{SHF}{LHF}$) sensitivity curves across all 5 evaluated soil moisture thresholds.
+![Bowen Ratio Example](/figures/BR_comps.png)  
+*Figure 2: Bowen Ratio ($B = \frac{SHF}{LHF}$) curves across all 5 evaluated soil moisture thresholds.
 
 ### Takeaways from the Simulation
 * **Surface Energy Budget (Figure 1):** At 0% soil moisture, the lack of available surface water heavily suppresses Latent Heat Flux ($LHF$), forcing the incoming net shortwave radiation to be allocated almost entirely to the Sensible Heat Flux ($SHF$). This models a highly efficient thermal heating of the lower atmosphere.
-* **Bowen Ratio Sensitivity (Figure 2):** As soil moisture scales from 0% to 100%, the Bowen ratio drops dramatically. This demonstrates the shift from a sensible-heat-dominated regime (dry soil) to a latent-heat-dominated regime (wet soil), which directly influences the thermodynamic stability required for cloud street development over the Sahel.
+* **Bowen Ratio(Figure 2):** As soil moisture scales from 0% to 100%, the Bowen ratio drops dramatically. This demonstrates the shift from a sensible-heat-dominated regime (dry soil) to a latent-heat-dominated regime (wet soil), which directly influences the thermodynamic stability required for cloud street development over the Sahel.
 ## Technical Skills Demonstrated
 - **Languages:** Python
 - **Libraries:** NumPy, Matplotlib, Pandas, Xarray
