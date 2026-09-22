@@ -2,13 +2,13 @@
 
 **Author:** Madison Emehel
 **REU:** UW-Madison STORM, Dr. Bee Leung's Lab
-**Status:** Active Research Project (Summer 2026)
+**Status:** Finished Research Project (Summer 2026)
 
 ## Overview
 This repository contains demonstration code and methodological documentation for my research on cloud street formation over the Sahel. The project investigates how these organized cloud formations interact with the surface energy budget, with implications for regional climate and agriculture.
 
 ## Research Protection Notice
-**This is a demonstration repository.** The actual analysis scripts for this project utilize unpublished model outputs. To protect the integrity of ongoing, unpublished research, only generic demonstration code is provided here, which illustrates the structure and logic of my workflow.
+**This is a demonstration repository.** The actual analysis scripts for this project utilize unpublished model outputs. Only generic demonstration code is provided here, which illustrates the structure and logic of my workflow.
 
 ## Key Research Questions
 - What atmospheric conditions drive cloud street formation over the Sahel?
