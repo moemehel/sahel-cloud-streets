@@ -48,7 +48,7 @@ The resulting datasets are compiled using `pandas` and plotted with `matplotlib`
 *Figure 1: Diurnal cycle of the Surface Energy Budget components at 0% Soil Moisture.
 
 ![Bowen Ratio Example](/figures/BR_comps.png)  
-*Figure 2: Bowen Ratio ($B = \frac{SHF}{LHF}$) curves across all 5 evaluated soil moisture thresholds.
+*Figure 2: Bowen Ratio ($β = \frac{SHF}{LHF}$) curves across all 5 evaluated soil moisture thresholds.
 
 ### Takeaways from the Simulation
 * **Surface Energy Budget (Figure 1):** At 0% soil moisture, the lack of available surface water heavily suppresses Latent Heat Flux ($LHF$), forcing the incoming net shortwave radiation to be allocated almost entirely to the Sensible Heat Flux ($SHF$). This models a highly efficient thermal heating of the lower atmosphere.
